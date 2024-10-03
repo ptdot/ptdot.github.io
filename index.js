@@ -641,6 +641,7 @@ const app = {
   handleEvents: function () {
     const _this = this;
     const cdWidth = cd.offsetWidth;
+    // Xử lý khi nhấn phím Space
     document.onkeydown = function (e) {
     if (e.code === "Space") {
       e.preventDefault(); // Ngăn không cho trang bị cuộn xuống khi nhấn phím Space
