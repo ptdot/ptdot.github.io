@@ -641,6 +641,16 @@ const app = {
   handleEvents: function () {
     const _this = this;
     const cdWidth = cd.offsetWidth;
+    document.onkeydown = function (e) {
+    if (e.code === "Space") {
+      e.preventDefault(); // Ngăn không cho trang bị cuộn xuống khi nhấn phím Space
+      if (_this.isPlaying) {
+        audio.pause();
+      } else {
+        audio.play();
+      }
+    }
+  };
 
     // Xử lý CD quay / dừng
     // Handle CD spins / stops
