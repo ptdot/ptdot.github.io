@@ -455,7 +455,7 @@ const app = {
         singer: 'The Kid LAROI/Justin Bieber',
     },
     {
-        path: 'music/11111Stereo Hearts (feat. Adam Levine)11.mp3',
+        path: 'music/Stereo Hearts (feat. Adam Levine).mp3',
         name: 'Stereo Hearts (feat. Adam Levine)',
         image: 'picture/Stereo Hearts (feat. Adam Levine).jpg',
         singer: 'Gym Class Heroes/Adam Levine',
