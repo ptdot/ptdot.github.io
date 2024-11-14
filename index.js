@@ -473,9 +473,9 @@ const app = {
         singer: 'Maroon 5',
     },
     {
-        path: 'music/Sunflower - Spider-Man: Into the Spider-Verse.mp3',
+        path: 'music/Sunflower - Spider-Man_ Into the Spider-Verse.mp3',
         name: 'Sunflower - Spider-Man: Into the Spider-Verse',
-        image: 'picture/Dusk Till Dawn (feat. Sia) - Radio Edit.jpg',
+        image: 'picture/Sunflower - Spider-Man_ Into the Spider-Verse.jpg',
         singer: 'Post Malone/Swae Lee',
     },
     {
